@@ -1,0 +1,101 @@
+:root {
+    --bg-clr-white: #FFFFFF;
+    --bg-clr-whiteplus: #F7F7F7;
+    --box-shadow: 3px 3px 10px 1px #ddd;
+    --border:.2rem solid black;
+}
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none; list-style: none;
+}
+
+body {
+    background-color: var(--bg-clr-whiteplus);
+    width: 100%;
+}
+
+/* HEADER
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--bg-clr-white);
+    box-shadow: var(--box-shadow);
+}
+
+header .user {
+    width: 100%;
+    text-align: end;
+    padding-right: 4%;
+}
+
+header .user p a{
+    color: black;
+}
+
+header .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar .logo {
+    padding-left: 10%;
+}
+
+header .navbar .logo img {
+    width: 110%;
+    height: 12.5vh;
+}
+
+header .navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+header .navbar nav ul {
+    display: flex;
+} */
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--bg-clr-white);
+    box-shadow: var(--box-shadow);
+}
+
+header .user {
+    width: 100%;
+    text-align: end;
+    padding-right: 4%;
+}
+
+header .user p a{
+    color: black;
+}
+
+header .navbar {
+    width: 100%;
+    display: flex;
+}
+
+header .navbar .logo {
+    width: 35%;
+    height: 13vh
+}
+
+header .navbar .logo img {
+    width: 50%;
+    height: 12vh;
+}
+
+header .navbar nav {
+    width: 65%;
+}
