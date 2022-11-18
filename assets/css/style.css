@@ -1,8 +1,9 @@
 :root {
     --bg-clr-white: #FFFFFF;
     --bg-clr-whiteplus: #F7F7F7;
+    --black: black;
     --box-shadow: 3px 3px 10px 1px #ddd;
-    --border:.2rem solid black;
+    --border:.2rem solid var(--black);
 }
 
 * {
@@ -64,7 +65,7 @@ header .navbar nav ul {
 
 /* HEADER */
 
-header {
+/* header {
     width: 100%;
     height: 15vh;
     background-color: var(--bg-clr-white);
@@ -98,4 +99,42 @@ header .navbar .logo img {
 
 header .navbar nav {
     width: 65%;
+} */
+
+
+.header {
+    background-color: var(--bg-clr-white);
+    width: 100%;
+    height: 18vh;
+    padding: .5rem 3rem;
+    box-shadow: var(--box-shadow);
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .flex .logo {
+    height: 15vh;
+}
+
+.header .flex .logo a img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.header .flex .navbar a {
+    padding-left: 2rem;
+    color: var(--black);
+    font-size: 1.2rem;
+}
+
+.header .flex .contact-nav {
+    padding: .5rem 2rem;
+    background-color: blue;
+    color: var(--bg-clr-white);
+    font-size: 1.2rem;
 }

@@ -2,27 +2,25 @@
 <?php require_once "views/layouts/header.php" ?>
 
 <!-- Header -->
-<header>
+<header class="header">
 
-    <div class="user">
-        <p><a href="#">S'inscrire</a> | <a href="#">Se connecter</a></p>
-    </div>
+    <section class="flex">
 
-    <section class="navbar">
         <div class="logo">
-            <img src="assets/img/logo-header.png" alt="logo nicole westerhoek">
+            <a href="index.php">
+                <img src="assets/img/logo-header.png" alt="logo nicole westerhoek">
+            </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="#">Sophrologie</a></li>
-                <li><a href="#">Hypnose</a></li>
-                <li><a href="#">Tarifs</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Contactez-moi !</a></li>
-            </ul>
+
+        <nav class="navbar">
+            <a href="index.php">Accueil</a>
+            <a href="#">Sophrologie</a>
+            <a href="#">Hypnose</a>
+            <a href="#">Tarifs</a>
         </nav>
+
+        <a href="#" class="contact-nav">Contactez-moi !</a>
+
     </section>
 
 </header>
