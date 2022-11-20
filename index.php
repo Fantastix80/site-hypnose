@@ -4,7 +4,6 @@
 <!-- Header -->
 <header class="header">
 
-<<<<<<< HEAD
     <section class="navbar">
         <div class="logo">
             <img class="logo_image" src="assets/img/logo.png" alt="logo nicole westerhoek">
@@ -23,26 +22,6 @@
                 <a href="#"></a>
             </div> -->
         </nav>
-
-=======
-    <section class="flex">
-
-        <div class="logo">
-            <a href="index.php">
-                <img src="assets/img/logo-header.png" alt="logo nicole westerhoek">
-            </a>
-        </div>
-
-        <nav class="navbar">
-            <a href="index.php">Accueil</a>
-            <a href="#">Sophrologie</a>
-            <a href="#">Hypnose</a>
-            <a href="#">Tarifs</a>
-        </nav>
-
-        <a href="#" class="contact-nav">Contactez-moi !</a>
-
->>>>>>> d474319ead9079e5cbe754f8783c527aa06d4182
     </section>
 
     <div id="mySidenav" class="sidenav">

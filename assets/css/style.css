@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
     --clr-white: #FFFFFF;
     --clr-whitemedium: #F1F1F1;
     --clr-whiteplus: #F7F7F7;
@@ -9,13 +8,8 @@
     --clr-black: black;
     --caroussel-btn-bg: #bababa;
     --caroussel-btn-checked: #6753ea;
-=======
-    --bg-clr-white: #FFFFFF;
-    --bg-clr-whiteplus: #F7F7F7;
-    --black: black;
->>>>>>> d474319ead9079e5cbe754f8783c527aa06d4182
     --box-shadow: 3px 3px 10px 1px #ddd;
-    --border:.2rem solid var(--black);
+    --border:.2rem solid var(--clr-black);
 }
 
 * {
@@ -152,7 +146,6 @@ header span i:before {
     display: none;
 }
 
-<<<<<<< HEAD
 header .sidenav .leftBorder_actual_page{
     border-left: 4px solid var(--clr-whitemedium);
 }
@@ -223,16 +216,13 @@ header #main {
 /* SLIDER */
 
 .slider .sliderImage {
+    width: 100%;
     height: 100%;
     max-height: 80vh;
-=======
-/* header {
->>>>>>> d474319ead9079e5cbe754f8783c527aa06d4182
-    width: 100%;
 }
 
 .slider .slideshow {
-    max-width: auto;
+    /*max-width: 100%;*/
     position: relative;
     margin: auto;
 }
@@ -294,7 +284,7 @@ header #main {
 
 @keyframes fade {
     from {opacity: .4}
-    top {opacity: 1}
+    to {opacity: 1}
 }
 
 /* CAS COURANT */
@@ -407,7 +397,6 @@ header #main {
     width: 40%;
 }
 
-<<<<<<< HEAD
 .presentation .container .video{
     height: 90%;
 }
@@ -796,46 +785,4 @@ footer .mentions a{
     footer .reseaux{
         gap: 1rem;
     }
-=======
-header .navbar nav {
-    width: 65%;
-} */
-
-
-.header {
-    background-color: var(--bg-clr-white);
-    width: 100%;
-    height: 18vh;
-    padding: .5rem 3rem;
-    box-shadow: var(--box-shadow);
-}
-
-.header .flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header .flex .logo {
-    height: 15vh;
-}
-
-.header .flex .logo a img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-.header .flex .navbar a {
-    padding-left: 2rem;
-    color: var(--black);
-    font-size: 1.2rem;
-}
-
-.header .flex .contact-nav {
-    padding: .5rem 2rem;
-    background-color: blue;
-    color: var(--bg-clr-white);
-    font-size: 1.2rem;
->>>>>>> d474319ead9079e5cbe754f8783c527aa06d4182
 }
